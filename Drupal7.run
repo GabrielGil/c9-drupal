@@ -1,0 +1,18 @@
+// This file uses the built-in PHP (built-in web server) by using Drush, thus it is required.
+// Short installation instructions for Drush on C9: https://github.com/GabrielGil/c9-drupal
+{
+  "cmd": [
+    "drush",
+    "runserver",
+    "$ip:$port"
+  ],
+  "selector": "^.*\\.(php)$",
+  "cwd": "$project_path",
+  "debugger": "xdebug",
+  "debugport": 9000,
+  "env": {
+    "PATH": "$HOME/.composer/vendor/bin:$PATH",
+    "XDEBUG_CONFIG": "\"idekey=cloud9ide remote_host=localhost remote_port=9000 remote_mode=req\""
+  },
+  "info": "Starting Drush server at \\033[01;34m$hostname_path\\033[00m."
+}
