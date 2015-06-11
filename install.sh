@@ -17,7 +17,7 @@ then
     echo "Composer vendor path is already included."
 else
     # code if not found
-    echo "Composer vendor path is not included yet."
+    echo -en "\033[36m Composer vendor path is not included yet.\n"
     echo 'export PATH="$HOME/.composer/vendor/bin:$PATH"' >> $HOME/.bashrc
     echo "Done!"
 fi
@@ -25,4 +25,5 @@ fi
 source $HOME/.bashrc
 
 # Copy Runner
+mkdir -p $HOME/workspace/.c9/runners
 sudo wget https://raw.githubusercontent.com/GabrielGil/c9-drupal/master/Drupal7.run --output-document=$HOME/workspace/.c9/runners/Drupal7.run
