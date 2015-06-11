@@ -14,9 +14,12 @@ composer global require drush/drush:7.*
 if grep -q 'export PATH="$HOME/.composer/vendor/bin:$PATH"' $HOME/.bashrc
 then
     # code if found
+    echo "Composer vendor path is already included."
 else
     # code if not found
+    echo "Composer vendor path is not included yet."
     echo 'export PATH="$HOME/.composer/vendor/bin:$PATH"' >> $HOME/.bashrc
+    echo "Done!"
 fi
 # Reload source
 source $HOME/.bashrc
