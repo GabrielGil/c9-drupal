@@ -1,5 +1,5 @@
 # c9-drupal
-Drupal development with debugging tools made easy on @c9
+Drupal development with debugging tools made *"easy"* on @c9
 
 ## Quick install
 Run this..    
