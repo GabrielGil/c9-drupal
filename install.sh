@@ -31,4 +31,4 @@ source $HOME/.bashrc
 # Copy Runner
 echo -en "\033[35m Get and copy runner...\n"
 mkdir -p $HOME/workspace/.c9/runners
-sudo wget https://raw.githubusercontent.com/GabrielGil/c9-drupal/master/Drupal7.run --output-document=$HOME/workspace/.c9/runners/Drupal7.run
+sudo wget https://raw.githubusercontent.com/GabrielGil/c9-drupal/master/Drush7.run --output-document=$HOME/workspace/.c9/runners/Drush7.run
