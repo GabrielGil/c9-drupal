@@ -20,3 +20,6 @@ Set `xdebug.remote_enable=1` directly on `/etc/php5/cli/php.ini`.
 It is not working more than on the fisrt request, and only on certain .php files, not on the whole instalation. This bugs are also appearing in a similar way with the default php built-in server but in order to run Drush with clean url's and certain configuration Drupal need, we need Drush, or a full webserver (Apache2, NGINX), however @C9 genius team only got xcode working on PHP-Built-in.
 
 For the time being, the @C9 engineers are working 24/7 (my doubts here) to get the debugger finally working. Let's keep on waiting, eventhough it has been 2 weeks already. They're really busy tho.
+
+**Solution**     
+haha... Wait, @c9 is on it.
